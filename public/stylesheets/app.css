@@ -1,0 +1,32 @@
+i .icon {
+    size: 2em;
+}
+
+.container.main {
+    margin: 7em; 
+}
+
+#delete {
+    display: inline;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1492224625554-624a5342b58a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-color: #cccccc;
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+}    
+
+#contain {
+  background: url("https://images.unsplash.com/photo-1495840638361-8fbc6ede54bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"); 
+  background-color: #cccccc;
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat, repeat;
+  background-size: cover;
+  position: relative;
+}
+
