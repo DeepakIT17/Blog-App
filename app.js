@@ -5,11 +5,14 @@ mongoose       = require("mongoose"),
 express        = require("express"),
 app            = express();
 
-mongoose.connect("mongodb://localhost:27017/blog_app", 
+//mongoose.connect("mongodb://localhost:27017/blog_app", { useNewUrlParser: true });
+
+mongoose.connect("mongodb+srv://deepak:deepak@blogapp.nszjg.mongodb.net/blogapp?retryWrites=true&w=majority", 
 { keepAlive: true,
   useNewUrlParser: true,
   useCreateIndex: true,
   useFindAndModify: false });
+
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
